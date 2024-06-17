@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+h2 {
+    font-family: sans-serif;
+}
+button {
+    margin: 10px;
+    display: block;
+    margin: auto;
+}

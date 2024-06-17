@@ -1,0 +1,55 @@
+<!-- Алгоритм создания нового проекта -->
+<!-- 
+    1. Открыть папку с новым проектом
+    2. Создать файлы
+        - index.html
+        - style.css
+        - script.js
+    3. В файле html создать структуру сайта (можно быстро сделать через ! )
+    4. Подключить стили
+        - Обнулить отступы
+    5. Подключить скрипты (если имеются)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <h2>Нажми на кнопку и получи задание :-)</h2>
+    <button class="add-btn">сложить</button>
+    <button class="sub-btn">вычесть</button>
+    <button class="mult-btn">умножить</button>
+    <button class="div-btn">разделить</button>
+    <h2>выбрать уровень</h2>
+    <select class="change-diff" name="" id=""> 
+        <option value="easy">
+            легкий (от 0 до 9)
+
+        </option>
+        <option value="medium">
+            средний (от 10 до 99)
+        </option>
+        <option value="hard">
+            сложный (от 100 до 999)
+        </option>
+        <option value="random">
+            случайный (от 0 до 10000)
+        </option>
+    </select>
+    <button class="stats">статистика</button>
+    <button class="reset">сбросить статистику</button>
+
+
+    <script src="script.js"></script>
+</body>
+<!-- статистика : сколько верных и неверных  -->
+
+</html>
